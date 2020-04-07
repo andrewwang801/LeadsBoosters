@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "8.1.1",
+  "iOS" : [
+    {
+      "name" : "XLPagerTabStrip",
+      "hash" : "5fd311565f9f067aead1662ed01b2f46397e8ff43077cd67bba2e00f355610cd",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

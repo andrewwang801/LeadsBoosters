@@ -1,0 +1,9 @@
+{
+  "commitish" : "3.4.0",
+  "iOS" : [
+    {
+      "name" : "QBImagePicker",
+      "hash" : "334c1921962f6ac898b0f8e4f96cf0571825d87d7e4ea5a7423157d42caec5a4"
+    }
+  ]
+}

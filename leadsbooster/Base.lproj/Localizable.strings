@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  Alaitisal
+
+  Created by Alex on 2019/7/22.
+  Copyright © 2019 JN. All rights reserved.
+*/
+"Loading" = "Loading...";
+"Login" = "Login";
+"SignUp" = "SignUp";
+"Google" = "Google";
+"Facebook" = "Facebook";
+"Welcome" = "Welcome";
+
+"Buying" = "Buying";
+"Selling" = "Selling";
+"Printing" = "Printing";
+"Books" = "Books";
+"Tools" = "Tools";
+"Done" = "Done";
+"radius" = "Radius";
+"microphone" = "microphone";
+"photoLibrary" = "photoLibrary";
+"camera" = "camera";
+"microphoneEnableAccess" = "microphoneEnableAccess";
+"photoEnableAccess" = "photoEnableAccess";
+"cameraEnableAccess" = "camearEnableAccess";
+
+///AutoReplyBots
+"keywordMissed" = "Keyword can not be blank";
+"replyMissed" = "Reply can not be blank";
+"serverError" = "Our server has some issue now, we will fix it soon";
+"internetError" = "You don't have network connection now. Please check internet connection...";
+"remove" = "Remove";
+"removeConfirm" = "Are you sure to remove this bot";
+"yes" = "Yes";
+"no" = "No";
+"robinSetting" = "Campaign Round Robin Settings";
+"serviceNotAvailable" = "You have not installed Whatsapp or your device can not connect Whatsapp Service. Please confirm it and try again.";

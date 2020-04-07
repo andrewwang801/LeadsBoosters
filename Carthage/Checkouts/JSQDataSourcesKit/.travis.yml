@@ -1,0 +1,53 @@
+language: objective-c
+osx_image: xcode10.1
+branches:
+  only:
+    - master
+    - develop
+
+env:
+   global:
+   - LANG=en_US.UTF-8
+
+   - PROJECT="JSQDataSourcesKit.xcodeproj"
+
+   - IOS_SDK=iphonesimulator12.1
+   - TVOS_SDK=appletvsimulator12.1
+
+   matrix:
+   - DESTINATION="OS=11.4,name=iPhone X" SDK="$IOS_SDK" RUN_TESTS="YES" BUILD_EXAMPLE="YES" POD_LINT="YES"
+
+   - DESTINATION="OS=12.1,name=iPhone X" SDK="$IOS_SDK" RUN_TESTS="YES" BUILD_EXAMPLE="YES" POD_LINT="NO"
+
+   - DESTINATION="OS=12.1,name=Apple TV" SDK="$TVOS_SDK" RUN_TESTS="YES" BUILD_EXAMPLE="NO" POD_LINT="NO"
+
+before_install:
+   - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
+   - brew update
+   - brew outdated swiftlint || brew upgrade swiftlint
+
+script:
+- set -o pipefail
+- xcodebuild -version -sdk
+
+- if [ $POD_LINT == "YES" ]; then
+      pod lib lint --skip-tests;
+  fi
+
+- if [ $BUILD_EXAMPLE == "YES" ]; then
+      xcodebuild build analyze -project Example/Example.xcodeproj -scheme Example -sdk "$SDK" -destination "$DESTINATION" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO | xcpretty -c;
+  fi
+
+- if [ $RUN_TESTS == "YES" ]; then
+      xcodebuild analyze test -project "$PROJECT" -scheme JSQDataSourcesKit -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO | xcpretty -c;
+  else
+      xcodebuild build analyze -project "$PROJECT" -scheme JSQDataSourcesKit -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO | xcpretty -c;
+  fi
+
+# Build for reporting test coverage
+- if [ $RUN_TESTS == "YES" ]; then
+      xcodebuild test -project JSQDataSourcesKit.xcodeproj -scheme JSQDataSourcesKit -destination "platform=iOS Simulator,name=iPhone X" CODE_SIGNING_REQUIRED=NO;
+  fi
+
+after_success:
+- bash <(curl -s https://codecov.io/bash)

@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.2.1-2",
+  "iOS" : [
+    {
+      "name" : "CardinalMobile",
+      "hash" : "bb4bf62b4f4b32cbfcd7f106514f3b43d84d28e3091c2127127056012489876e"
+    }
+  ]
+}

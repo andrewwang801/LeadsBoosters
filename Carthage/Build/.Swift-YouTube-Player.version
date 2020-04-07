@@ -1,0 +1,10 @@
+{
+  "commitish" : "v0.5.1",
+  "iOS" : [
+    {
+      "name" : "YouTubePlayer",
+      "hash" : "b0eae0f85869ada79cb2aa9eb016583af2bd04d76bbc8777064bcf01c84b3cf1",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

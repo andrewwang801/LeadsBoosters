@@ -1,0 +1,27 @@
+{
+  "Mac" : [
+    {
+      "name" : "Reachability",
+      "hash" : "444bfa41c920f062df39bc9d05b3d7169c0dc7a3e1adad1cf0eec8d2238acc65",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "Reachability",
+      "hash" : "bd2a196c79f40fe01ded71f166912cbc78cca8562613b7245b01b41b62a72d75",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "commitish" : "v4.3.0",
+  "iOS" : [
+    {
+      "name" : "Reachability",
+      "hash" : "a2814b27a29f5ce33f983070faa0e0119b2b583e3693ae82ccb9e5250d7f8cdd",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

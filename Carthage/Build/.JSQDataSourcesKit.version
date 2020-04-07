@@ -1,0 +1,33 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "ExampleModel",
+      "hash" : "473971d209eb9fdadb74a0ed63ec33f2124b7ec179c4cc0edea3319864e4610a",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    },
+    {
+      "name" : "JSQDataSourcesKit",
+      "hash" : "5f3deeda88779d4558699deb8e2ceead3ff4d71c9469af2b8bbae455ace9592e",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "commitish" : "8.0.0",
+  "iOS" : [
+    {
+      "name" : "ExampleModel",
+      "hash" : "15eea715e6e367faafbd59b3a8a355652945c4bec19be71c8370a85ae83ca6ea",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    },
+    {
+      "name" : "JSQDataSourcesKit",
+      "hash" : "24b39c8dca76ee7297e699e276746910cb78d9790846992cc470ea058f7417f1",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

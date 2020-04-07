@@ -1,0 +1,10 @@
+{
+  "commitish" : "0.4.0",
+  "iOS" : [
+    {
+      "name" : "YoutubeKit",
+      "hash" : "41f899e215f474ef2007c83a17ba4c8963d9ca1742c47932cb5f5bd1b96a6cf1",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

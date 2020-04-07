@@ -1,0 +1,11 @@
+framework module JSQDataSourcesKit {
+  umbrella header "JSQDataSourcesKit.h"
+
+  export *
+  module * { export * }
+}
+
+module JSQDataSourcesKit.Swift {
+    header "JSQDataSourcesKit-Swift.h"
+    requires objc
+}

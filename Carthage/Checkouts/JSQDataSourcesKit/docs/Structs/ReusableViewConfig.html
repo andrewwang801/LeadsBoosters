@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ReusableViewConfig Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/ReusableViewConfig" class="dashAnchor"></a>
+    <a title="ReusableViewConfig Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">JSQDataSourcesKit Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/jessesquires/JSQDataSourcesKit"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">JSQDataSourcesKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ReusableViewConfig Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../getting-started.html">Getting Started</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DataSourceProvider.html">DataSourceProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FetchedResultsController.html">FetchedResultsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FetchedResultsDelegateProvider.html">FetchedResultsDelegateProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TitledSupplementaryView.html">TitledSupplementaryView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ReusableViewType.html">ReusableViewType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CellParentViewProtocol.html">CellParentViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DataSourceProtocol.html">DataSourceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReusableViewConfigProtocol.html">ReusableViewConfigProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReusableViewProtocol.html">ReusableViewProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DataSource.html">DataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReusableViewConfig.html">ReusableViewConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Section.html">Section</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TableEditingController.html">TableEditingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TitledSupplementaryViewConfig.html">TitledSupplementaryViewConfig</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ReusableViewConfig</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ReusableViewConfig</span><span class="o">&lt;</span><span class="kt">Item</span><span class="p">,</span> <span class="kt">Cell</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/ReusableViewConfigProtocol.html">ReusableViewConfigProtocol</a></span> <span class="k">where</span> <span class="kt">Cell</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/ReusableViewProtocol.html">ReusableViewProtocol</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>A <code>ReusableViewConfig</code> is a concrete <code><a href="../Protocols/ReusableViewConfigProtocol.html">ReusableViewConfigProtocol</a></code> type.
+This config is responsible for producing and configuring reusable views for a specific item.
+Cells can be for either collection views or table views.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Type%20aliases"></a>
+                <a name="//apple_ref/swift/Section/Type aliases" class="dashAnchor"></a>
+                <a href="#/Type%20aliases">
+                  <h3 class="section-name">Type aliases</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit18ReusableViewConfigV0E12Configuratora"></a>
+                    <a name="//apple_ref/swift/Alias/ViewConfigurator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit18ReusableViewConfigV0E12Configuratora">ViewConfigurator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Configures the cell for the specified item, parent view, and index path.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">ViewConfigurator</span> <span class="o">=</span> <span class="p">(</span><span class="kt">Cell</span><span class="p">,</span> <span class="kt">Item</span><span class="p">?,</span> <span class="kt"><a href="../Enums/ReusableViewType.html">ReusableViewType</a></span><span class="p">,</span> <span class="kt">Cell</span><span class="o">.</span><span class="kt">ParentView</span><span class="p">,</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Cell</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cell</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The cell to be configured at the index path.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>item</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The item at <code>indexPath</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The type of reusable view.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parentView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The collection view or table view requesting this information.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The index path at which the cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The configured cell.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <a href="#/Properties">
+                  <h3 class="section-name">Properties</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit18ReusableViewConfigV15reuseIdentifierSSvp"></a>
+                    <a name="//apple_ref/swift/Property/reuseIdentifier" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit18ReusableViewConfigV15reuseIdentifierSSvp">reuseIdentifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A unique identifier that describes the purpose of the cells that the config produces.
+The config dequeues cells from the collection view or table view with this reuse identifier.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Clients are responsible for registering a cell for this identifier with the collection view or table view.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit18ReusableViewConfigV4typeAA0dE4TypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit18ReusableViewConfigV4typeAA0dE4TypeOvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of the reusable view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/ReusableViewType.html">ReusableViewType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit18ReusableViewConfigV16viewConfiguratoryq_q__xSgAA0dE4TypeO06ParentE0Qy_10Foundation9IndexPathVtcvp"></a>
+                    <a name="//apple_ref/swift/Property/viewConfigurator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit18ReusableViewConfigV16viewConfiguratoryq_q__xSgAA0dE4TypeO06ParentE0Qy_10Foundation9IndexPathVtcvp">viewConfigurator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A closure used to configure the views.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">viewConfigurator</span><span class="p">:</span> <span class="kt"><a href="../Structs/ReusableViewConfig.html#/s:17JSQDataSourcesKit18ReusableViewConfigV0E12Configuratora">ViewConfigurator</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <a href="#/Initialization">
+                  <h3 class="section-name">Initialization</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit18ReusableViewConfigV15reuseIdentifier4type16viewConfiguratorACyxq_GSS_AA0dE4TypeOq_q__xSgAI06ParentE0Qy_10Foundation9IndexPathVtctcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(reuseIdentifier:type:viewConfigurator:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit18ReusableViewConfigV15reuseIdentifier4type16viewConfiguratorACyxq_GSS_AA0dE4TypeOq_q__xSgAI06ParentE0Qy_10Foundation9IndexPathVtctcfc">init(reuseIdentifier:type:viewConfigurator:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a new reusable view config.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/ReusableViewType.html">ReusableViewType</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">cell</span><span class="p">,</span> <span class="nv">viewConfigurator</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Structs/ReusableViewConfig.html#/s:17JSQDataSourcesKit18ReusableViewConfigV0E12Configuratora">ViewConfigurator</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>reuseIdentifier</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The reuse identifier with which to dequeue reusable views.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The type of the reusable view.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>viewConfigurator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The closure with which to configure views.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://twitter.com/jesse_squires" target="_blank" rel="external">Jesse Squires</a>. All rights reserved. (Last updated: 2019-03-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,692 @@
+BCSymbolMap Version: 2.0
+-[BTDropInRequest init]
+-[BTDropInRequest copyWithZone:]
+-[BTDropInRequest amount]
+-[BTDropInRequest setAmount:]
+-[BTDropInRequest payPalRequest]
+-[BTDropInRequest setPayPalRequest:]
+-[BTDropInRequest applePayDisabled]
+-[BTDropInRequest setApplePayDisabled:]
+-[BTDropInRequest paypalDisabled]
+-[BTDropInRequest setPaypalDisabled:]
+-[BTDropInRequest venmoDisabled]
+-[BTDropInRequest setVenmoDisabled:]
+-[BTDropInRequest cardDisabled]
+-[BTDropInRequest setCardDisabled:]
+-[BTDropInRequest threeDSecureVerification]
+-[BTDropInRequest setThreeDSecureVerification:]
+-[BTDropInRequest threeDSecureRequest]
+-[BTDropInRequest setThreeDSecureRequest:]
+-[BTDropInRequest cardholderNameSetting]
+-[BTDropInRequest setCardholderNameSetting:]
+-[BTDropInRequest shouldMaskSecurityCode]
+-[BTDropInRequest setShouldMaskSecurityCode:]
+-[BTDropInRequest vaultManager]
+-[BTDropInRequest setVaultManager:]
+-[BTDropInRequest vaultCard]
+-[BTDropInRequest setVaultCard:]
+-[BTDropInRequest allowVaultCardOverride]
+-[BTDropInRequest setAllowVaultCardOverride:]
+-[BTDropInRequest .cxx_destruct]
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+_OBJC_IVAR_$_BTDropInRequest._applePayDisabled
+_OBJC_IVAR_$_BTDropInRequest._paypalDisabled
+_OBJC_IVAR_$_BTDropInRequest._venmoDisabled
+_OBJC_IVAR_$_BTDropInRequest._cardDisabled
+_OBJC_IVAR_$_BTDropInRequest._threeDSecureVerification
+_OBJC_IVAR_$_BTDropInRequest._shouldMaskSecurityCode
+_OBJC_IVAR_$_BTDropInRequest._vaultManager
+_OBJC_IVAR_$_BTDropInRequest._vaultCard
+_OBJC_IVAR_$_BTDropInRequest._allowVaultCardOverride
+_OBJC_IVAR_$_BTDropInRequest._amount
+_OBJC_IVAR_$_BTDropInRequest._payPalRequest
+_OBJC_IVAR_$_BTDropInRequest._threeDSecureRequest
+_OBJC_IVAR_$_BTDropInRequest._cardholderNameSetting
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/Models/BTDropInRequest.m
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in
+BraintreeDropIn/Models/BTDropInRequest.m
+BraintreeDropIn/Public/BTDropInRequest.h
+-[BTDropInPaymentSeletionCell initWithStyle:reuseIdentifier:]
+-[BTDropInPaymentSeletionCell setHighlighted:animated:]
+-[BTDropInPaymentSeletionCell setSelected:animated:]
+-[BTDropInPaymentSeletionCell applyConstraints]
+-[BTDropInPaymentSeletionCell label]
+-[BTDropInPaymentSeletionCell setLabel:]
+-[BTDropInPaymentSeletionCell detailLabel]
+-[BTDropInPaymentSeletionCell setDetailLabel:]
+-[BTDropInPaymentSeletionCell iconView]
+-[BTDropInPaymentSeletionCell setIconView:]
+-[BTDropInPaymentSeletionCell bottomBorder]
+-[BTDropInPaymentSeletionCell setBottomBorder:]
+-[BTDropInPaymentSeletionCell type]
+-[BTDropInPaymentSeletionCell setType:]
+-[BTDropInPaymentSeletionCell labelContainer]
+-[BTDropInPaymentSeletionCell setLabelContainer:]
+-[BTDropInPaymentSeletionCell .cxx_destruct]
+_OBJC_IVAR_$_BTDropInPaymentSeletionCell._label
+_OBJC_IVAR_$_BTDropInPaymentSeletionCell._detailLabel
+_OBJC_IVAR_$_BTDropInPaymentSeletionCell._iconView
+_OBJC_IVAR_$_BTDropInPaymentSeletionCell._bottomBorder
+_OBJC_IVAR_$_BTDropInPaymentSeletionCell._type
+_OBJC_IVAR_$_BTDropInPaymentSeletionCell._labelContainer
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/Custom Views/BTDropInPaymentSeletionCell.m
+BraintreeDropIn/Custom Views/BTDropInPaymentSeletionCell.m
+BraintreeDropIn/Custom Views/BTDropInPaymentSeletionCell.h
+-[BTVaultManagementViewController viewDidLoad]
+-[BTVaultManagementViewController viewDidAppear:]
+-[BTVaultManagementViewController configurationLoaded:error:]
+___61-[BTVaultManagementViewController configurationLoaded:error:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[BTVaultManagementViewController fetchPaymentMethodsOnCompletion:]
+___67-[BTVaultManagementViewController fetchPaymentMethodsOnCompletion:]_block_invoke
+___copy_helper_block_e8_32s40b
+___destroy_helper_block_e8_32s40s
+-[BTVaultManagementViewController cancelTapped]
+-[BTVaultManagementViewController numberOfSectionsInTableView:]
+-[BTVaultManagementViewController tableView:cellForRowAtIndexPath:]
+-[BTVaultManagementViewController tableView:commitEditingStyle:forRowAtIndexPath:]
+___82-[BTVaultManagementViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke
+___82-[BTVaultManagementViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2
+-[BTVaultManagementViewController tableView:canEditRowAtIndexPath:]
+-[BTVaultManagementViewController tableView:heightForRowAtIndexPath:]
+-[BTVaultManagementViewController tableView:numberOfRowsInSection:]
+-[BTVaultManagementViewController delegate]
+-[BTVaultManagementViewController setDelegate:]
+-[BTVaultManagementViewController paymentMethodNonces]
+-[BTVaultManagementViewController setPaymentMethodNonces:]
+-[BTVaultManagementViewController paymentOptionsTableView]
+-[BTVaultManagementViewController setPaymentOptionsTableView:]
+-[BTVaultManagementViewController .cxx_destruct]
+___block_descriptor_40_e8_32s_e5_v8?0l
+___block_descriptor_48_e8_32s40bs_e29_v24?0"NSArray"8"NSError"16l
+___block_descriptor_40_e8_32s_e50_v32?0"BTJSON"8"NSHTTPURLResponse"16"NSError"24l
+_OBJC_IVAR_$_BTVaultManagementViewController._delegate
+_OBJC_IVAR_$_BTVaultManagementViewController._paymentMethodNonces
+_OBJC_IVAR_$_BTVaultManagementViewController._paymentOptionsTableView
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_UITableViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UITableViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/BTVaultManagementViewController.m
+BraintreeDropIn/BTVaultManagementViewController.m
+BraintreeDropIn/Public/BTVaultManagementViewController.h
+__82-[BTVaultManagementViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke_2
+__82-[BTVaultManagementViewController tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40b
+__67-[BTVaultManagementViewController fetchPaymentMethodsOnCompletion:]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__61-[BTVaultManagementViewController configurationLoaded:error:]_block_invoke
+-[BTUIPaymentMethodCollectionViewCell initWithFrame:]
+-[BTUIPaymentMethodCollectionViewCell setHighlighted:]
+-[BTUIPaymentMethodCollectionViewCell paymentOptionCardView]
+-[BTUIPaymentMethodCollectionViewCell setPaymentOptionCardView:]
+-[BTUIPaymentMethodCollectionViewCell titleLabel]
+-[BTUIPaymentMethodCollectionViewCell setTitleLabel:]
+-[BTUIPaymentMethodCollectionViewCell descriptionLabel]
+-[BTUIPaymentMethodCollectionViewCell setDescriptionLabel:]
+-[BTUIPaymentMethodCollectionViewCell paymentMethodNonce]
+-[BTUIPaymentMethodCollectionViewCell setPaymentMethodNonce:]
+-[BTUIPaymentMethodCollectionViewCell .cxx_destruct]
+_OBJC_IVAR_$_BTUIPaymentMethodCollectionViewCell._paymentOptionCardView
+_OBJC_IVAR_$_BTUIPaymentMethodCollectionViewCell._titleLabel
+_OBJC_IVAR_$_BTUIPaymentMethodCollectionViewCell._descriptionLabel
+_OBJC_IVAR_$_BTUIPaymentMethodCollectionViewCell._paymentMethodNonce
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/Custom Views/BTUIPaymentMethodCollectionViewCell.m
+BraintreeDropIn/Custom Views/BTUIPaymentMethodCollectionViewCell.m
+BraintreeDropIn/Custom Views/BTUIPaymentMethodCollectionViewCell.h
++[BTDropInUIUtilities addSpacerToStackView:beforeView:size:]
++[BTDropInUIUtilities newStackView]
++[BTDropInUIUtilities newStackViewForError:]
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/BTDropInUIUtilities.m
+BraintreeDropIn/BTDropInUIUtilities.m
+-[BTCardFormViewController initWithAPIClient:request:]
+-[BTCardFormViewController viewDidLoad]
+-[BTCardFormViewController viewWillAppear:]
+-[BTCardFormViewController viewDidAppear:]
+-[BTCardFormViewController setupForm]
+-[BTCardFormViewController configurationLoaded:error:]
+-[BTCardFormViewController updateRequiredFields]
+-[BTCardFormViewController setupCardIO]
+-[BTCardFormViewController isCardIOAvailable]
+-[BTCardFormViewController presentCardIO]
+-[BTCardFormViewController userDidCancelPaymentViewController:]
+-[BTCardFormViewController userDidProvideCreditCardInfo:inPaymentViewController:]
+___81-[BTCardFormViewController userDidProvideCreditCardInfo:inPaymentViewController:]_block_invoke
+___copy_helper_block_e8_32s40s
+-[BTCardFormViewController cardRequest]
+-[BTCardFormViewController setCollapsed:]
+___41-[BTCardFormViewController setCollapsed:]_block_invoke
+___41-[BTCardFormViewController setCollapsed:]_block_invoke_2
+___41-[BTCardFormViewController setCollapsed:]_block_invoke.458
+-[BTCardFormViewController shouldDisplaySaveCardToggle]
+-[BTCardFormViewController resetForm]
+-[BTCardFormViewController hideKeyboard]
+-[BTCardFormViewController keyboardWillShow:]
+-[BTCardFormViewController keyboardWillHide:]
+-[BTCardFormViewController cancelTapped]
+-[BTCardFormViewController updateFormBorders]
+-[BTCardFormViewController isFormValid]
+___39-[BTCardFormViewController isFormValid]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[BTCardFormViewController updateSubmitButton]
+-[BTCardFormViewController advanceFocusFromField:]
+-[BTCardFormViewController fetchCardCapabilities]
+___49-[BTCardFormViewController fetchCardCapabilities]_block_invoke
+-[BTCardFormViewController cardNumberErrorHidden:]
+-[BTCardFormViewController cardNumberErrorHidden:errorString:]
+-[BTCardFormViewController tokenizeCard]
+-[BTCardFormViewController basicTokenization]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___45-[BTCardFormViewController basicTokenization]_block_invoke
+___45-[BTCardFormViewController basicTokenization]_block_invoke_2
+___copy_helper_block_e8_32s40s48s56s64r
+___destroy_helper_block_e8_32s40s48s56s64r
+___copy_helper_block_e8_32s40s48r
+___destroy_helper_block_e8_32s40s48r
+-[BTCardFormViewController enrollCard]
+___38-[BTCardFormViewController enrollCard]_block_invoke
+___38-[BTCardFormViewController enrollCard]_block_invoke_2
+___38-[BTCardFormViewController enrollCard]_block_invoke_3
+___38-[BTCardFormViewController enrollCard]_block_invoke_4
+___38-[BTCardFormViewController enrollCard]_block_invoke.626
+___38-[BTCardFormViewController enrollCard]_block_invoke_2.627
+___copy_helper_block_e8_32s40s48s56r64r
+___destroy_helper_block_e8_32s40s48s56r64r
+___copy_helper_block_e8_32s40r48r
+___destroy_helper_block_e8_32s40r48r
+___copy_helper_block_e8_32s40r48r56r
+___destroy_helper_block_e8_32s40r48r56r
+___38-[BTCardFormViewController enrollCard]_block_invoke.633
+-[BTCardFormViewController validateButtonPressed:]
+-[BTCardFormViewController formFieldDidBeginEditing:]
+-[BTCardFormViewController formFieldDidChange:]
+-[BTCardFormViewController formFieldShouldReturn:]
+-[BTCardFormViewController textFieldShouldReturn:]
+-[BTCardFormViewController delegate]
+-[BTCardFormViewController setDelegate:]
+-[BTCardFormViewController cardNumberField]
+-[BTCardFormViewController setCardNumberField:]
+-[BTCardFormViewController cardholderNameField]
+-[BTCardFormViewController setCardholderNameField:]
+-[BTCardFormViewController expirationDateField]
+-[BTCardFormViewController setExpirationDateField:]
+-[BTCardFormViewController securityCodeField]
+-[BTCardFormViewController setSecurityCodeField:]
+-[BTCardFormViewController postalCodeField]
+-[BTCardFormViewController setPostalCodeField:]
+-[BTCardFormViewController mobileCountryCodeField]
+-[BTCardFormViewController setMobileCountryCodeField:]
+-[BTCardFormViewController mobilePhoneField]
+-[BTCardFormViewController setMobilePhoneField:]
+-[BTCardFormViewController cardCapabilities]
+-[BTCardFormViewController setCardCapabilities:]
+-[BTCardFormViewController supportedCardTypes]
+-[BTCardFormViewController setSupportedCardTypes:]
+-[BTCardFormViewController scrollView]
+-[BTCardFormViewController setScrollView:]
+-[BTCardFormViewController scrollViewContentWrapper]
+-[BTCardFormViewController setScrollViewContentWrapper:]
+-[BTCardFormViewController stackView]
+-[BTCardFormViewController setStackView:]
+-[BTCardFormViewController shouldVaultCardSwitchField]
+-[BTCardFormViewController setShouldVaultCardSwitchField:]
+-[BTCardFormViewController cardNumberErrorView]
+-[BTCardFormViewController setCardNumberErrorView:]
+-[BTCardFormViewController cardNumberHeader]
+-[BTCardFormViewController setCardNumberHeader:]
+-[BTCardFormViewController enrollmentFooter]
+-[BTCardFormViewController setEnrollmentFooter:]
+-[BTCardFormViewController nextButton]
+-[BTCardFormViewController setNextButton:]
+-[BTCardFormViewController formFields]
+-[BTCardFormViewController setFormFields:]
+-[BTCardFormViewController requiredFields]
+-[BTCardFormViewController setRequiredFields:]
+-[BTCardFormViewController optionalFields]
+-[BTCardFormViewController setOptionalFields:]
+-[BTCardFormViewController cardNumberFooter]
+-[BTCardFormViewController setCardNumberFooter:]
+-[BTCardFormViewController cardList]
+-[BTCardFormViewController setCardList:]
+-[BTCardFormViewController isCollapsed]
+-[BTCardFormViewController firstResponderFormField]
+-[BTCardFormViewController setFirstResponderFormField:]
+-[BTCardFormViewController unionPayEnabledMerchant]
+-[BTCardFormViewController setUnionPayEnabledMerchant:]
+-[BTCardFormViewController cardEntryDidBegin]
+-[BTCardFormViewController setCardEntryDidBegin:]
+-[BTCardFormViewController cardEntryDidFocus]
+-[BTCardFormViewController setCardEntryDidFocus:]
+-[BTCardFormViewController enrollmentFailed]
+-[BTCardFormViewController setEnrollmentFailed:]
+-[BTCardFormViewController enrollmentID]
+-[BTCardFormViewController setEnrollmentID:]
+-[BTCardFormViewController .cxx_destruct]
+_OBJC_IVAR_$_BTCardFormViewController._requiredFields
+_OBJC_IVAR_$_BTCardFormViewController._optionalFields
+_OBJC_IVAR_$_BTCardFormViewController._supportedCardTypes
+_OBJC_IVAR_$_BTCardFormViewController._collapsed
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+___block_descriptor_41_e8_32s_e5_v8?0l
+___block_descriptor_41_e8_32s_e8_v12?0B8l
+___block_descriptor_48_e8_32s40r_e31_v32?0"BTUIKFormField"8Q16^B24l
+___block_descriptor_40_e8_32s_e40_v24?0"BTCardCapabilities"8"NSError"16l
+___block_descriptor_72_e8_32s40s48s56s64r_e5_v8?0l
+___block_descriptor_56_e8_32s40s48r_e33_v24?0"BTCardNonce"8"NSError"16l
+___block_descriptor_48_e8_32s40r_e5_v8?0l
+___block_descriptor_72_e8_32s40s48s56r64r_e5_v8?0l
+___block_descriptor_56_e8_32s40r48r_e33_v24?0"BTCardNonce"8"NSError"16l
+___block_descriptor_64_e8_32s40r48r56r_e21_v20?0"NSString"8B16l
+___block_descriptor_56_e8_32s40r48r_e5_v8?0l
+___block_descriptor_64_e8_32s40r48r56r_e33_v28?0"NSString"8B16"NSError"20l
+_OBJC_IVAR_$_BTCardFormViewController._delegate
+_OBJC_IVAR_$_BTCardFormViewController._cardNumberField
+_OBJC_IVAR_$_BTCardFormViewController._cardholderNameField
+_OBJC_IVAR_$_BTCardFormViewController._expirationDateField
+_OBJC_IVAR_$_BTCardFormViewController._securityCodeField
+_OBJC_IVAR_$_BTCardFormViewController._postalCodeField
+_OBJC_IVAR_$_BTCardFormViewController._mobileCountryCodeField
+_OBJC_IVAR_$_BTCardFormViewController._mobilePhoneField
+_OBJC_IVAR_$_BTCardFormViewController._cardCapabilities
+_OBJC_IVAR_$_BTCardFormViewController._scrollView
+_OBJC_IVAR_$_BTCardFormViewController._scrollViewContentWrapper
+_OBJC_IVAR_$_BTCardFormViewController._stackView
+_OBJC_IVAR_$_BTCardFormViewController._shouldVaultCardSwitchField
+_OBJC_IVAR_$_BTCardFormViewController._cardNumberErrorView
+_OBJC_IVAR_$_BTCardFormViewController._cardNumberHeader
+_OBJC_IVAR_$_BTCardFormViewController._enrollmentFooter
+_OBJC_IVAR_$_BTCardFormViewController._nextButton
+_OBJC_IVAR_$_BTCardFormViewController._formFields
+_OBJC_IVAR_$_BTCardFormViewController._cardNumberFooter
+_OBJC_IVAR_$_BTCardFormViewController._cardList
+_OBJC_IVAR_$_BTCardFormViewController._firstResponderFormField
+_OBJC_IVAR_$_BTCardFormViewController._unionPayEnabledMerchant
+_OBJC_IVAR_$_BTCardFormViewController._cardEntryDidBegin
+_OBJC_IVAR_$_BTCardFormViewController._cardEntryDidFocus
+_OBJC_IVAR_$_BTCardFormViewController._enrollmentFailed
+_OBJC_IVAR_$_BTCardFormViewController._enrollmentID
+__OBJC_PROTOCOL_$_UITextFieldDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+__OBJC_PROTOCOL_$_BTUIKFormFieldDelegate
+__OBJC_LABEL_PROTOCOL_$_BTUIKFormFieldDelegate
+__OBJC_PROTOCOL_$_BTUIKCardNumberFormFieldDelegate
+__OBJC_LABEL_PROTOCOL_$_BTUIKCardNumberFormFieldDelegate
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/BTCardFormViewController.m
+BraintreeDropIn/BTCardFormViewController.m
+BraintreeDropIn/Public/BTCardFormViewController.h
+__38-[BTCardFormViewController enrollCard]_block_invoke.633
+__destroy_helper_block_e8_32s40r48r56r
+__copy_helper_block_e8_32s40r48r56r
+__destroy_helper_block_e8_32s40r48r
+__copy_helper_block_e8_32s40r48r
+__destroy_helper_block_e8_32s40s48s56r64r
+__copy_helper_block_e8_32s40s48s56r64r
+__38-[BTCardFormViewController enrollCard]_block_invoke_2.627
+__38-[BTCardFormViewController enrollCard]_block_invoke.626
+__38-[BTCardFormViewController enrollCard]_block_invoke_4
+__38-[BTCardFormViewController enrollCard]_block_invoke_3
+__38-[BTCardFormViewController enrollCard]_block_invoke_2
+__38-[BTCardFormViewController enrollCard]_block_invoke
+__destroy_helper_block_e8_32s40s48r
+__copy_helper_block_e8_32s40s48r
+__destroy_helper_block_e8_32s40s48s56s64r
+__copy_helper_block_e8_32s40s48s56s64r
+__45-[BTCardFormViewController basicTokenization]_block_invoke_2
+__45-[BTCardFormViewController basicTokenization]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__49-[BTCardFormViewController fetchCardCapabilities]_block_invoke
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__39-[BTCardFormViewController isFormValid]_block_invoke
+__41-[BTCardFormViewController setCollapsed:]_block_invoke.458
+__41-[BTCardFormViewController setCollapsed:]_block_invoke_2
+__41-[BTCardFormViewController setCollapsed:]_block_invoke
+__copy_helper_block_e8_32s40s
+__81-[BTCardFormViewController userDidProvideCreditCardInfo:inPaymentViewController:]_block_invoke
++[BTDropInResult fetchDropInResultForAuthorization:handler:]
+___60+[BTDropInResult fetchDropInResultForAuthorization:handler:]_block_invoke
+___copy_helper_block_e8_32b40r
+-[BTDropInResult paymentIcon]
+-[BTDropInResult paymentDescription]
+-[BTDropInResult isCancelled]
+-[BTDropInResult setCancelled:]
+-[BTDropInResult paymentOptionType]
+-[BTDropInResult setPaymentOptionType:]
+-[BTDropInResult paymentMethod]
+-[BTDropInResult setPaymentMethod:]
+-[BTDropInResult .cxx_destruct]
+___block_descriptor_56_e8_32bs40r_e29_v24?0"NSArray"8"NSError"16l
+_OBJC_IVAR_$_BTDropInResult._cancelled
+_OBJC_IVAR_$_BTDropInResult._paymentOptionType
+_OBJC_IVAR_$_BTDropInResult._paymentMethod
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/Models/BTDropInResult.m
+BraintreeDropIn/Models/BTDropInResult.m
+BraintreeDropIn/Public/BTDropInResult.h
+__copy_helper_block_e8_32b40r
+__60+[BTDropInResult fetchDropInResultForAuthorization:handler:]_block_invoke
++[BTDropInOverrides displayVenmoOption]
++[BTDropInOverrides setDisplayVenmoOption:]
+__displayVenmoOption
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/BTDropInOverrides.m
+BraintreeDropIn/BTDropInOverrides.m
+-[BTDropInController initWithAuthorization:request:handler:]
+-[BTDropInController viewDidLoad]
+-[BTDropInController viewWillAppear:]
+-[BTDropInController viewWillDisappear:]
+-[BTDropInController viewWillTransitionToSize:withTransitionCoordinator:]
+___73-[BTDropInController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+___73-[BTDropInController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.90
+-[BTDropInController setUpViews]
+-[BTDropInController setUpChildViewControllers]
+-[BTDropInController setUpConstraints]
+-[BTDropInController loadConfiguration]
+___39-[BTDropInController loadConfiguration]_block_invoke
+___39-[BTDropInController loadConfiguration]_block_invoke_2
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+-[BTDropInController cancelHit:]
+-[BTDropInController cardTokenizationCompleted:error:sender:]
+___61-[BTDropInController cardTokenizationCompleted:error:sender:]_block_invoke
+___61-[BTDropInController cardTokenizationCompleted:error:sender:]_block_invoke_2
+___copy_helper_block_e8_32s40s48s56s
+___destroy_helper_block_e8_32s40s48s56s
+-[BTDropInController threeDSecureVerification:]
+___47-[BTDropInController threeDSecureVerification:]_block_invoke
+-[BTDropInController onLookupComplete:result:next:]
+-[BTDropInController updateToolbarForViewController:]
+-[BTDropInController showCardForm:]
+-[BTDropInController sheetInset]
+-[BTDropInController isFullScreen]
+-[BTDropInController flexViewAnimated:]
+___39-[BTDropInController flexViewAnimated:]_block_invoke
+-[BTDropInController applyContentViewConstraints]
+-[BTDropInController resetDropInState]
+-[BTDropInController supportsHalfSheet]
+-[BTDropInController isFormSheet]
+-[BTDropInController prefersStatusBarHidden]
+-[BTDropInController preferredStatusBarStyle]
+-[BTDropInController preferredStatusBarUpdateAnimation]
+-[BTDropInController positionForBar:]
+-[BTDropInController appSwitcherWillPerformAppSwitch:]
+-[BTDropInController appSwitcherWillProcessPaymentInfo:]
+-[BTDropInController appSwitcher:didPerformSwitchToTarget:]
+-[BTDropInController paymentDriver:requestsPresentationOfViewController:]
+-[BTDropInController paymentDriver:requestsDismissalOfViewController:]
+-[BTDropInController selectionCompletedWithPaymentMethodType:nonce:error:]
+-[BTDropInController sheetHeightDidChange:]
+___43-[BTDropInController sheetHeightDidChange:]_block_invoke
+-[BTDropInController reloadDropInData]
+-[BTDropInController editPaymentMethods:]
+-[BTDropInController animationControllerForPresentedController:presentingController:sourceController:]
+-[BTDropInController animationControllerForDismissedController:]
+-[BTDropInController apiClient]
+-[BTDropInController setApiClient:]
+-[BTDropInController dropInRequest]
+-[BTDropInController configuration]
+-[BTDropInController setConfiguration:]
+-[BTDropInController btToolbar]
+-[BTDropInController setBtToolbar:]
+-[BTDropInController contentView]
+-[BTDropInController setContentView:]
+-[BTDropInController contentClippingView]
+-[BTDropInController setContentClippingView:]
+-[BTDropInController paymentSelectionViewController]
+-[BTDropInController setPaymentSelectionViewController:]
+-[BTDropInController contentHeightConstraint]
+-[BTDropInController setContentHeightConstraint:]
+-[BTDropInController contentHeightConstraintBottom]
+-[BTDropInController setContentHeightConstraintBottom:]
+-[BTDropInController useBlur]
+-[BTDropInController setUseBlur:]
+-[BTDropInController displayCardTypes]
+-[BTDropInController setDisplayCardTypes:]
+-[BTDropInController blurredContentBackgroundView]
+-[BTDropInController setBlurredContentBackgroundView:]
+-[BTDropInController handler]
+-[BTDropInController setHandler:]
+-[BTDropInController .cxx_destruct]
+-[BTDropInControllerPresentTransition transitionDuration:]
+-[BTDropInControllerPresentTransition animateTransition:]
+___57-[BTDropInControllerPresentTransition animateTransition:]_block_invoke
+___57-[BTDropInControllerPresentTransition animateTransition:]_block_invoke_2
+-[BTDropInControllerDismissTransition transitionDuration:]
+-[BTDropInControllerDismissTransition animateTransition:]
+___57-[BTDropInControllerDismissTransition animateTransition:]_block_invoke
+___57-[BTDropInControllerDismissTransition animateTransition:]_block_invoke_2
+_OBJC_IVAR_$_BTDropInController._dropInRequest
+_OBJC_IVAR_$_BTDropInController._apiClient
+___block_descriptor_40_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8l
+___block_descriptor_32_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8l
+___block_literal_global
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+___block_descriptor_40_e8_32s_e37_v24?0"BTConfiguration"8"NSError"16l
+___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+___block_descriptor_40_e8_32s_e41_v24?0"BTPaymentFlowResult"8"NSError"16l
+_OBJC_IVAR_$_BTDropInController._configuration
+_OBJC_IVAR_$_BTDropInController._btToolbar
+_OBJC_IVAR_$_BTDropInController._contentView
+_OBJC_IVAR_$_BTDropInController._contentClippingView
+_OBJC_IVAR_$_BTDropInController._paymentSelectionViewController
+_OBJC_IVAR_$_BTDropInController._contentHeightConstraint
+_OBJC_IVAR_$_BTDropInController._contentHeightConstraintBottom
+_OBJC_IVAR_$_BTDropInController._useBlur
+_OBJC_IVAR_$_BTDropInController._displayCardTypes
+_OBJC_IVAR_$_BTDropInController._blurredContentBackgroundView
+_OBJC_IVAR_$_BTDropInController._handler
+__OBJC_PROTOCOL_$_BTAppSwitchDelegate
+__OBJC_LABEL_PROTOCOL_$_BTAppSwitchDelegate
+__OBJC_PROTOCOL_$_BTDropInControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_BTDropInControllerDelegate
+__OBJC_PROTOCOL_$_BTViewControllerPresentingDelegate
+__OBJC_LABEL_PROTOCOL_$_BTViewControllerPresentingDelegate
+__OBJC_PROTOCOL_$_BTPaymentSelectionViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_BTPaymentSelectionViewControllerDelegate
+__OBJC_PROTOCOL_$_BTCardFormViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_BTCardFormViewControllerDelegate
+__OBJC_PROTOCOL_$_BTThreeDSecureRequestDelegate
+__OBJC_LABEL_PROTOCOL_$_BTThreeDSecureRequestDelegate
+__OBJC_PROTOCOL_$_UIBarPositioningDelegate
+__OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+__OBJC_PROTOCOL_$_UIToolbarDelegate
+__OBJC_LABEL_PROTOCOL_$_UIToolbarDelegate
+__OBJC_PROTOCOL_$_UIViewControllerTransitioningDelegate
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
+___block_descriptor_40_e8_32s_e8_v12?0B8l
+__OBJC_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+___block_descriptor_48_e8_32s40s_e8_v12?0B8l
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/BTDropInController.m
+__57-[BTDropInControllerDismissTransition animateTransition:]_block_invoke_2
+BraintreeDropIn/BTDropInController.m
+__57-[BTDropInControllerDismissTransition animateTransition:]_block_invoke
+__57-[BTDropInControllerPresentTransition animateTransition:]_block_invoke_2
+__57-[BTDropInControllerPresentTransition animateTransition:]_block_invoke
+BraintreeDropIn/Public/BTDropInController.h
+__43-[BTDropInController sheetHeightDidChange:]_block_invoke
+__39-[BTDropInController flexViewAnimated:]_block_invoke
+__47-[BTDropInController threeDSecureVerification:]_block_invoke
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32s40s48s56s
+__61-[BTDropInController cardTokenizationCompleted:error:sender:]_block_invoke_2
+__61-[BTDropInController cardTokenizationCompleted:error:sender:]_block_invoke
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
+__39-[BTDropInController loadConfiguration]_block_invoke_2
+__39-[BTDropInController loadConfiguration]_block_invoke
+__73-[BTDropInController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.90
+__73-[BTDropInController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+-[BTEnrollmentVerificationViewController initWithPhone:mobileCountryCode:handler:]
+-[BTEnrollmentVerificationViewController viewDidLoad]
+-[BTEnrollmentVerificationViewController smsErrorHidden:]
+-[BTEnrollmentVerificationViewController formFieldDidChange:]
+-[BTEnrollmentVerificationViewController cancel]
+-[BTEnrollmentVerificationViewController resendTapped]
+-[BTEnrollmentVerificationViewController confirm]
+-[BTEnrollmentVerificationViewController mobilePhoneNumber]
+-[BTEnrollmentVerificationViewController setMobilePhoneNumber:]
+-[BTEnrollmentVerificationViewController mobileCountryCode]
+-[BTEnrollmentVerificationViewController setMobileCountryCode:]
+-[BTEnrollmentVerificationViewController handler]
+-[BTEnrollmentVerificationViewController setHandler:]
+-[BTEnrollmentVerificationViewController smsTextField]
+-[BTEnrollmentVerificationViewController setSmsTextField:]
+-[BTEnrollmentVerificationViewController smsSentLabel]
+-[BTEnrollmentVerificationViewController setSmsSentLabel:]
+-[BTEnrollmentVerificationViewController resendSmsButton]
+-[BTEnrollmentVerificationViewController setResendSmsButton:]
+-[BTEnrollmentVerificationViewController stackView]
+-[BTEnrollmentVerificationViewController setStackView:]
+-[BTEnrollmentVerificationViewController smsErrorView]
+-[BTEnrollmentVerificationViewController setSmsErrorView:]
+-[BTEnrollmentVerificationViewController .cxx_destruct]
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._mobilePhoneNumber
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._mobileCountryCode
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._handler
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._smsTextField
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._smsSentLabel
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._resendSmsButton
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._stackView
+_OBJC_IVAR_$_BTEnrollmentVerificationViewController._smsErrorView
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/Custom Views/BTEnrollmentVerificationViewController.m
+BraintreeDropIn/Custom Views/BTEnrollmentVerificationViewController.m
+-[BTPaymentSelectionViewController init]
+-[BTPaymentSelectionViewController viewDidLoad]
+-[BTPaymentSelectionViewController loadConfiguration]
+-[BTPaymentSelectionViewController showLoadingScreen:]
+-[BTPaymentSelectionViewController dealloc]
+-[BTPaymentSelectionViewController observeValueForKeyPath:ofObject:change:context:]
+-[BTPaymentSelectionViewController configurationLoaded:error:]
+___62-[BTPaymentSelectionViewController configurationLoaded:error:]_block_invoke
+-[BTPaymentSelectionViewController fetchPaymentMethodsOnCompletion:]
+___68-[BTPaymentSelectionViewController fetchPaymentMethodsOnCompletion:]_block_invoke
+-[BTPaymentSelectionViewController prefersStatusBarHidden]
+-[BTPaymentSelectionViewController newStackView]
+-[BTPaymentSelectionViewController sectionHeaderLabelWithString:]
+-[BTPaymentSelectionViewController addSpacerToStackView:size:beforeView:]
+-[BTPaymentSelectionViewController sheetHeight]
+-[BTPaymentSelectionViewController vaultedPaymentsEditButtonPressed]
+-[BTPaymentSelectionViewController sendVaultedCardAppearAnalytic]
+-[BTPaymentSelectionViewController numberOfSectionsInCollectionView:]
+-[BTPaymentSelectionViewController collectionView:numberOfItemsInSection:]
+-[BTPaymentSelectionViewController collectionView:cellForItemAtIndexPath:]
+-[BTPaymentSelectionViewController collectionView:layout:sizeForItemAtIndexPath:]
+-[BTPaymentSelectionViewController collectionView:layout:insetForSectionAtIndex:]
+-[BTPaymentSelectionViewController collectionView:layout:minimumInteritemSpacingForSectionAtIndex:]
+-[BTPaymentSelectionViewController collectionView:layout:minimumLineSpacingForSectionAtIndex:]
+-[BTPaymentSelectionViewController collectionView:didSelectItemAtIndexPath:]
+-[BTPaymentSelectionViewController numberOfSectionsInTableView:]
+-[BTPaymentSelectionViewController tableView:cellForRowAtIndexPath:]
+-[BTPaymentSelectionViewController tableView:didSelectRowAtIndexPath:]
+___70-[BTPaymentSelectionViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+___70-[BTPaymentSelectionViewController tableView:didSelectRowAtIndexPath:]_block_invoke.482
+___70-[BTPaymentSelectionViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2
+-[BTPaymentSelectionViewController tableView:heightForRowAtIndexPath:]
+-[BTPaymentSelectionViewController tableView:numberOfRowsInSection:]
+-[BTPaymentSelectionViewController paymentMethodNonces]
+-[BTPaymentSelectionViewController setPaymentMethodNonces:]
+-[BTPaymentSelectionViewController delegate]
+-[BTPaymentSelectionViewController setDelegate:]
+-[BTPaymentSelectionViewController scrollView]
+-[BTPaymentSelectionViewController setScrollView:]
+-[BTPaymentSelectionViewController scrollViewContentWrapper]
+-[BTPaymentSelectionViewController setScrollViewContentWrapper:]
+-[BTPaymentSelectionViewController stackView]
+-[BTPaymentSelectionViewController setStackView:]
+-[BTPaymentSelectionViewController paymentOptionsLabelContainerStackView]
+-[BTPaymentSelectionViewController setPaymentOptionsLabelContainerStackView:]
+-[BTPaymentSelectionViewController vaultedPaymentsLabelContainerStackView]
+-[BTPaymentSelectionViewController setVaultedPaymentsLabelContainerStackView:]
+-[BTPaymentSelectionViewController paymentOptionsData]
+-[BTPaymentSelectionViewController setPaymentOptionsData:]
+-[BTPaymentSelectionViewController paymentOptionsTableView]
+-[BTPaymentSelectionViewController setPaymentOptionsTableView:]
+-[BTPaymentSelectionViewController savedPaymentMethodsCollectionViewConstraint]
+-[BTPaymentSelectionViewController setSavedPaymentMethodsCollectionViewConstraint:]
+-[BTPaymentSelectionViewController paymentOptionsHeader]
+-[BTPaymentSelectionViewController setPaymentOptionsHeader:]
+-[BTPaymentSelectionViewController vaultedPaymentsHeader]
+-[BTPaymentSelectionViewController setVaultedPaymentsHeader:]
+-[BTPaymentSelectionViewController vaultedPaymentsEditButton]
+-[BTPaymentSelectionViewController setVaultedPaymentsEditButton:]
+-[BTPaymentSelectionViewController savedPaymentMethodsCollectionView]
+-[BTPaymentSelectionViewController setSavedPaymentMethodsCollectionView:]
+-[BTPaymentSelectionViewController .cxx_destruct]
+__vaultedCardAppearAnalyticSent
+___block_descriptor_40_e8_32s_e42_v24?0"BTPayPalAccountNonce"8"NSError"16l
+___block_descriptor_40_e8_32s_e42_v24?0"BTPaymentMethodNonce"8"NSError"16l
+_OBJC_IVAR_$_BTPaymentSelectionViewController._paymentMethodNonces
+_OBJC_IVAR_$_BTPaymentSelectionViewController._delegate
+_OBJC_IVAR_$_BTPaymentSelectionViewController._scrollView
+_OBJC_IVAR_$_BTPaymentSelectionViewController._scrollViewContentWrapper
+_OBJC_IVAR_$_BTPaymentSelectionViewController._stackView
+_OBJC_IVAR_$_BTPaymentSelectionViewController._paymentOptionsLabelContainerStackView
+_OBJC_IVAR_$_BTPaymentSelectionViewController._vaultedPaymentsLabelContainerStackView
+_OBJC_IVAR_$_BTPaymentSelectionViewController._paymentOptionsData
+_OBJC_IVAR_$_BTPaymentSelectionViewController._paymentOptionsTableView
+_OBJC_IVAR_$_BTPaymentSelectionViewController._savedPaymentMethodsCollectionViewConstraint
+_OBJC_IVAR_$_BTPaymentSelectionViewController._paymentOptionsHeader
+_OBJC_IVAR_$_BTPaymentSelectionViewController._vaultedPaymentsHeader
+_OBJC_IVAR_$_BTPaymentSelectionViewController._vaultedPaymentsEditButton
+_OBJC_IVAR_$_BTPaymentSelectionViewController._savedPaymentMethodsCollectionView
+__OBJC_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/BTPaymentSelectionViewController.m
+BraintreeDropIn/BTPaymentSelectionViewController.m
+BraintreeDropIn/Public/BTPaymentSelectionViewController.h
+__70-[BTPaymentSelectionViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2
+__70-[BTPaymentSelectionViewController tableView:didSelectRowAtIndexPath:]_block_invoke.482
+__70-[BTPaymentSelectionViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+__68-[BTPaymentSelectionViewController fetchPaymentMethodsOnCompletion:]_block_invoke
+__62-[BTPaymentSelectionViewController configurationLoaded:error:]_block_invoke
+-[BTDropInBaseViewController initWithAPIClient:request:]
+-[BTDropInBaseViewController viewDidLoad]
+-[BTDropInBaseViewController loadConfiguration]
+___47-[BTDropInBaseViewController loadConfiguration]_block_invoke
+-[BTDropInBaseViewController showLoadingScreen:animated:]
+___57-[BTDropInBaseViewController showLoadingScreen:animated:]_block_invoke
+-[BTDropInBaseViewController showLoadingScreen:]
+-[BTDropInBaseViewController configurationLoaded:error:]
+-[BTDropInBaseViewController setTitle:]
+-[BTDropInBaseViewController prefersStatusBarHidden]
+-[BTDropInBaseViewController preferredStatusBarUpdateAnimation]
+-[BTDropInBaseViewController apiClient]
+-[BTDropInBaseViewController setApiClient:]
+-[BTDropInBaseViewController configuration]
+-[BTDropInBaseViewController setConfiguration:]
+-[BTDropInBaseViewController dropInRequest]
+-[BTDropInBaseViewController setDropInRequest:]
+-[BTDropInBaseViewController activityIndicatorView]
+-[BTDropInBaseViewController setActivityIndicatorView:]
+-[BTDropInBaseViewController activityIndicatorWrapperView]
+-[BTDropInBaseViewController setActivityIndicatorWrapperView:]
+-[BTDropInBaseViewController titleView]
+-[BTDropInBaseViewController setTitleView:]
+-[BTDropInBaseViewController .cxx_destruct]
+_OBJC_IVAR_$_BTDropInBaseViewController._dropInRequest
+_OBJC_IVAR_$_BTDropInBaseViewController._apiClient
+_OBJC_IVAR_$_BTDropInBaseViewController._configuration
+_OBJC_IVAR_$_BTDropInBaseViewController._activityIndicatorView
+_OBJC_IVAR_$_BTDropInBaseViewController._activityIndicatorWrapperView
+_OBJC_IVAR_$_BTDropInBaseViewController._titleView
+/Volumes/Data/rsb/Work/2020/1/Dejan/project/iOS/league/Carthage/Checkouts/braintree-ios-drop-in/BraintreeDropIn/BTDropInBaseViewController.m
+BraintreeDropIn/BTDropInBaseViewController.m
+BraintreeDropIn/Public/BTDropInBaseViewController.h
+__57-[BTDropInBaseViewController showLoadingScreen:animated:]_block_invoke
+__47-[BTDropInBaseViewController loadConfiguration]_block_invoke
+/Users/appledeveloper/Library/Caches/org.carthage.CarthageKit/DerivedData/11.2.1_11B500/braintree-ios-drop-in/7.5.0/Build/Intermediates.noindex/ArchiveIntermediates/BraintreeDropIn/IntermediateBuildFilesPath/BraintreeDropIn.build/Release-iphoneos/BraintreeDropIn.build/DerivedSources/BraintreeDropIn_vers.c

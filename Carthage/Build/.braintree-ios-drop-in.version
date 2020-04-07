@@ -1,0 +1,13 @@
+{
+  "commitish" : "7.5.0",
+  "iOS" : [
+    {
+      "name" : "BraintreeUIKit",
+      "hash" : "4de52615257d9bf30904df842c51e82d409d27f6088ea0f9d515890956e91e8d"
+    },
+    {
+      "name" : "BraintreeDropIn",
+      "hash" : "2331494b7c40f6accf6862dfe60dc0b3f156bd30d7022a587af02e62fc0835d4"
+    }
+  ]
+}

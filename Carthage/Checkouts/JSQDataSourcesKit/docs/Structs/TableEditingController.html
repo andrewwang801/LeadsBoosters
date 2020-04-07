@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TableEditingController Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/TableEditingController" class="dashAnchor"></a>
+    <a title="TableEditingController Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">JSQDataSourcesKit Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/jessesquires/JSQDataSourcesKit"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">JSQDataSourcesKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TableEditingController Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../getting-started.html">Getting Started</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DataSourceProvider.html">DataSourceProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FetchedResultsController.html">FetchedResultsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FetchedResultsDelegateProvider.html">FetchedResultsDelegateProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TitledSupplementaryView.html">TitledSupplementaryView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ReusableViewType.html">ReusableViewType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CellParentViewProtocol.html">CellParentViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DataSourceProtocol.html">DataSourceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReusableViewConfigProtocol.html">ReusableViewConfigProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReusableViewProtocol.html">ReusableViewProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DataSource.html">DataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReusableViewConfig.html">ReusableViewConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Section.html">Section</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TableEditingController.html">TableEditingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TitledSupplementaryViewConfig.html">TitledSupplementaryViewConfig</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TableEditingController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TableEditingController</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/DataSource.html">DataSource</a></span><span class="o">&gt;</span> <span class="k">where</span> <span class="kt"><a href="../Structs/DataSource.html">DataSource</a></span> <span class="p">:</span> <span class="kt"><a href="../Protocols/DataSourceProtocol.html">DataSourceProtocol</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>An instance of <code>TableEditingController</code> allows editing a table view via inserting and deleting rows.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Typealiases"></a>
+                <a name="//apple_ref/swift/Section/Typealiases" class="dashAnchor"></a>
+                <a href="#/Typealiases">
+                  <h3 class="section-name">Typealiases</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit22TableEditingControllerV16CanEditRowConfiga"></a>
+                    <a name="//apple_ref/swift/Alias/CanEditRowConfig" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit22TableEditingControllerV16CanEditRowConfiga">CanEditRowConfig</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Asks if a row at the specified index path is editable for the specified table view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">CanEditRowConfig</span> <span class="o">=</span> <span class="p">(</span><span class="kt"><a href="../Structs/DataSource.html">DataSource</a></span><span class="o">.</span><span class="kt">Item</span><span class="p">?,</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>item</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The item at <code>indexPath</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tableView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The table view requesting this information.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The index path of the item.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>true</code> if the specified row is editable, <code>false</code> otherwise.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit22TableEditingControllerV06CommitE6Configa"></a>
+                    <a name="//apple_ref/swift/Alias/CommitEditingConfig" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit22TableEditingControllerV06CommitE6Configa">CommitEditingConfig</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Commits the editing actions for the specified index path.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">CommitEditingConfig</span> <span class="o">=</span> <span class="p">(</span><span class="k">inout</span> <span class="kt"><a href="../Structs/DataSource.html">DataSource</a></span><span class="p">,</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="kt">UITableViewCell</span><span class="o">.</span><span class="kt">EditingStyle</span><span class="p">,</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dataSource</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The dataSource at <code>indexPath</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tableView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The table view being edited.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>commit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The editing style.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The index path of the item.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit22TableEditingControllerV10canEditRowySb4ItemQzSg_So11UITableViewC10Foundation9IndexPathVtcvp"></a>
+                    <a name="//apple_ref/swift/Property/canEditRow" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit22TableEditingControllerV10canEditRowySb4ItemQzSg_So11UITableViewC10Foundation9IndexPathVtcvp">canEditRow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A closure that determines if a given row is editable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">canEditRow</span><span class="p">:</span> <span class="kt"><a href="../Structs/TableEditingController.html#/s:17JSQDataSourcesKit22TableEditingControllerV16CanEditRowConfiga">CanEditRowConfig</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit22TableEditingControllerV06commitE0yyxz_So11UITableViewCSo0hi4CellE5StyleV10Foundation9IndexPathVtcvp"></a>
+                    <a name="//apple_ref/swift/Property/commitEditing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit22TableEditingControllerV06commitE0yyxz_So11UITableViewCSo0hi4CellE5StyleV10Foundation9IndexPathVtcvp">commitEditing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A closure that commits the editing actions for a table view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">commitEditing</span><span class="p">:</span> <span class="kt"><a href="../Structs/TableEditingController.html#/s:17JSQDataSourcesKit22TableEditingControllerV06CommitE6Configa">CommitEditingConfig</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <a href="#/Initialization">
+                  <h3 class="section-name">Initialization</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17JSQDataSourcesKit22TableEditingControllerV10canEditRow06commitE0ACyxGSb4ItemQzSg_So11UITableViewC10Foundation9IndexPathVtc_yxz_AKSo0lm4CellE5StyleVANtctcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(canEditRow:commitEditing:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17JSQDataSourcesKit22TableEditingControllerV10canEditRow06commitE0ACyxGSb4ItemQzSg_So11UITableViewC10Foundation9IndexPathVtc_yxz_AKSo0lm4CellE5StyleVANtctcfc">init(canEditRow:commitEditing:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a new <code>TableEditingController</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">canEditRow</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Structs/TableEditingController.html#/s:17JSQDataSourcesKit22TableEditingControllerV16CanEditRowConfiga">CanEditRowConfig</a></span><span class="p">,</span> <span class="nv">commitEditing</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Structs/TableEditingController.html#/s:17JSQDataSourcesKit22TableEditingControllerV06CommitE6Configa">CommitEditingConfig</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>canEditRow</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The closure that determines if a given row is editable.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>commitEditing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The closure that commits the editing actions for a table view.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A new <code>TableEditingController</code> instance.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://twitter.com/jesse_squires" target="_blank" rel="external">Jesse Squires</a>. All rights reserved. (Last updated: 2019-03-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

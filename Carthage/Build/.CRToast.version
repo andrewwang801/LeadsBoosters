@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.0.9",
+  "iOS" : [
+    {
+      "name" : "CRToast",
+      "hash" : "fe0684f6fb1a17e9060f5aee8a410e914ecb8cc746b4aea18f3bc6189e682da0"
+    }
+  ]
+}

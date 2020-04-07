@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v18.0.0",
+  "iOS" : [
+    {
+      "name" : "Stripe",
+      "hash" : "9567e6222927fdaa9bece858db425e9963590cb10ae76d2d0e3eb5d524cbcf3f"
+    }
+  ]
+}
